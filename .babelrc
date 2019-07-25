@@ -1,0 +1,14 @@
+ {  "plugins": ["@babel/plugin-proposal-object-rest-spread"],
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "modules": "commonjs",
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+    
+  }
